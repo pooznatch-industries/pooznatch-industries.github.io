@@ -255,3 +255,23 @@ footer .reg { color: var(--color-accent); margin-top: 0.4rem; }
     color: var(--color-accent);
     border-bottom-color: var(--color-accent);
 }
+
+.engagements {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+.engagements li {
+    position: relative;
+    padding-left: 1.6rem;
+    margin-bottom: 0.6rem;
+}
+.engagements li::before {
+    content: "★";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+}
+.engagements li:last-child {
+    margin-bottom: 0;
+}
